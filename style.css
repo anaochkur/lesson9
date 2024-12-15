@@ -41,6 +41,7 @@ ul{
     margin-bottom: auto;
  border: 2px solid #ffff;
 }
+
 .footer{
     margin-right: 400px;
 }
@@ -102,3 +103,9 @@ img{
 #sydney{
     background: #666699;
 }
+ul>li:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
