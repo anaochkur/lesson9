@@ -29,6 +29,10 @@ main{
     justify-content: space-evenly;
     background: white;
 }
+.weather-table li{
+    box-sizing: border-box;
+    border: 2px solid #ffff;
+}
 ul{
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +43,10 @@ ul{
     justify-content: center;
     margin-top: 0px;
     margin-bottom: auto;
- border: 2px solid #ffff;
 }
-
+ul>li{
+    border: 2px solid #ffff;
+}
 .footer{
     margin-right: 400px;
 }
@@ -70,14 +75,16 @@ img{
 }
 
 #lisabon{
-    background:#3399CC ;
+    background:#3399CC;
+    
 }
 #paris{
     background: #33CCCC;
-
+   
 }
 #belgrade{
    background: #996699;
+   
 }
 #venice{
     background: #C24747;
